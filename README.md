@@ -2,4 +2,5 @@
 Python projects rebuilt in Java
 <br>
 <br>
-Arithmetic Formatter Coming Soon
+Currently contains:<br>
+Arithmetic Formatter
