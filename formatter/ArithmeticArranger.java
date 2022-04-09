@@ -12,7 +12,6 @@ public class ArithmeticArranger {
         String bottomLine = "";
         String results = "";
 
-
         // Max 5 problems
         if (problems.size() > 5)
             return "Error: too many problems.";
