@@ -17,6 +17,7 @@ public class ArithmeticArranger {
         if (problems.size() > 5)
             return "Error: too many problems.";
 
+        // *** The main loop ***
         // separate input into parts -- operands and operators; ints for math
         int first = 0;
         int second = 0;
@@ -26,11 +27,6 @@ public class ArithmeticArranger {
             first = Integer.valueOf(parts[0]);
             operator = parts[1];
             second = Integer.valueOf(parts[2]);
-
-
-  //          first = Integer.parseInt(problem.get(0));
-  //          operator = (String) problems.get(1);
-  //          second = Integer.parseInt(parts[2]);
 
             // String versions of Operands for display and error check
             String firstString = Integer.toString(first);
@@ -65,6 +61,7 @@ public class ArithmeticArranger {
                 lines += "-";
 
             // 4 lines between each column, none after the last column
+            // Each loop the next values are added in each line
             if (problem != problems.get(problems.size()-1)) {
                 firstNum += (top + "    ");
                 secondNum += (bottom + "    ");
@@ -78,7 +75,7 @@ public class ArithmeticArranger {
                 results += result;
             }
 
-            // The Output
+            // The Output -- the lines with all of the values are concatenated and returned
             arranged = firstNum + "\n" + secondNum + "\n" + bottomLine + "\n" + results;
             }
         return arranged;
