@@ -3,4 +3,5 @@ Python projects rebuilt in Java
 <br>
 <br>
 Currently contains:<br>
-Arithmetic Formatter
+Arithmetic Formatter<br>
+Area Calculator
