@@ -1,5 +1,5 @@
 # Java-of-FCC-Python
-Python projects rebuilt in Java
+Python projects rebuilt in Java (as an exercise)
 <br>
 <br>
 Currently contains:<br>
